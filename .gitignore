@@ -1,0 +1,35 @@
+# Xcode
+*.xcodeproj/*
+!default.xcworkspace
+*.xcworkspace/*
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+# Build
+build/
+DerivedData/
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+
+# CocoaPods
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Misc
+.DS_Store
+*.swp
+*.back
+*.tmproj
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
